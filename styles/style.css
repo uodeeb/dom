@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+}
+
+#navbar {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: antiquewhite;
+    z-index: 1000;
+    width: 100vw;
+}
+
+#nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 80%;
+
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-size: 1.8vw;
+    color: indianred;
+}
+
+.nav-item:hover a {
+    font-style: italic;
+    border-block: 2px solid indianred;
+    font-size: 2vw;
+}
+
+.nav-item {
+    display: none;
+    flex: 1;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vw;
+    width: 99vw;
+    height: 100vh;
+    scroll-margin-top: 100px;
+}
+
+#home {
+    display: none;
+    background-color: rgb(198, 197, 195);
+    color: black;
+
+}
+
+#services {
+    display: none;
+    background-color: rgb(173, 243, 205);
+    color: rgb(92, 206, 130);
+}
+
+#about {
+    display: none;
+    background-color: rgb(243, 232, 173);
+}
+
+#intro {
+    display: none;
+    background-color: rgba(243, 173, 230, 0.408);
+    color: coral;
+}
+
+#contact {
+    display: none;
+    background-color: rgb(243, 232, 173);
+    color: cadetblue;
+}
